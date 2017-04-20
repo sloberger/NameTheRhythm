@@ -15,6 +15,5 @@ int main() {
         tree.insert(next_question, tree.root);
     }
     
-    tree.display(tree.root, 0);
-    cout << tree.root -> question<< endl;
+    tree.traverse(tree.root);
 }

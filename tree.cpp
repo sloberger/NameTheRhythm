@@ -36,6 +36,21 @@ void BinaryTree::display(Node * node, int indent) {
     }
 }
 
+void BinaryTree::traverse(Node* node) {
+    cout << node->question << endl;
+    string response;
+    cout << "Enter yes/no" << endl;
+    cin >> response;
+    if (response == "yes") {
+        traverse(node->right);
+    }
+    else {
+        traverse(node->left);
+    }
+    //Need to handle case with leaf node
+    
+}
+
 bool BinaryTree::isQuestion() {
     if((&right == NULL) && (&left == NULL)) return false;
     return true;

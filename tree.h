@@ -25,4 +25,5 @@ public:
     void insert(string question, Node * root);
     void display(Node * tree, int indent);
     bool isQuestion();
+    void traverse(Node * node);
 };
