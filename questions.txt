@@ -1,0 +1,88 @@
+-2 Is there fibrillation?
+-1 Asystole
+-3 Ventricular fibrillation
+200 Is the R-R interval regular with a rate of less than or equal to 150 BPM?
+190 Is the rate greater than or equal to 150 BPM?
+195 Is the QRS Complex greater than 0.12 seconds with no patient history of a bundle branch block? (Note: these rhythms can be regular or irregular)
+192 Supraventricular Tachycardia
+198 Ventricular Tachycardia
+150 Are P-Waves absent? (Hint: flutter waves are not P-Waves)
+175 Does the rhythm have "sawtooth" or "flutter" waves?
+180 Is the QRS Complex greater than 0.12 seconds?
+178 Atrial Flutter with Variable Conduction
+181 Atrial Flutter with Variable Conduction and a Bundle Branch Block
+160 Is the rate greater than 120 BPM?
+165 Is the QRS Complex greater than 0.12 seconds?
+164 Atrial Fibrillation with Rapid Ventricular Rate
+166 Atrial Fibrillation with Rapid Ventricular Rate and a Bundle Branch Block
+155 Is the QRS Complex greater than 0.12 seconds?
+154 Atrial Fibrillation
+156 Atrial Fibrillation with a Bundle Branch Block
+20 Is there only one P-Wave for every QRS complex or are some P-Waves absent?
+10 Are the P-R Intervals the same for every QRS Complex?
+5 Does the P-R Interval increase until a QRS Complex is "dropped"?
+7 Is the QRS Complex greater than 0.12 seconds?
+6 Second Degree Type I Atrioventricular Block AKA Wenckebach
+8 Second Degree Type I Atrioventricular Block with a Bundle Branch Block AKA Wenckebach with a Bundle Branch Block
+15 Is the QRS Complex greater than 0.12 seconds?
+14 Second Degree Type II Atrioventricular Block with Variable Conduction AKA Mobitz II Variable Conduction
+16 Second Degree Type II Atrioventricular Block with Variable Conduction and a Bundle Branch Block AKA Mobitz II Variable Conduction and a Bundle Branch Block
+250 Does the rhythm have an ”upright" P-Wave? (Hint: flutter waves are not P-Waves)
+225 Does the rhythm have "sawtooth" or "flutter" waves? (Hint: flutter waves are not P-Waves) 
+255 Is the P-R interval regular?
+215 Is the QRS Complex greater than 0.12 seconds with no patient history of a bundle branch block?
+230 Atrial Flutter with ___ to one conduction
+252 Third Degree Atrioventricular Block
+350 Is there more than one P-Wave for every QRS?
+
+140 Do all of the P-Waves have the same morphology?
+213 Is the rate less than or equal to 60 BPM?
+220 Is the rate less than or equal to 40 BPM?
+300 Is the P-R Interval greater than 0.21 seconds?
+354 Second Degree Type II Atrioventricular Block with a ___ to one Conduction AKA Mobitz II with ___ to one Conduction
+120 Do the P-Waves have 3 or more morphologies?
+145 Is the QRS Complex greater than 0.12 seconds?
+130 Is the QRS Complex greater than 0.12 seconds?
+211 Is the rate between 60-100 BPM?
+212 Junctional Rhythm
+218 Is the rate greater than 40 BPM?
+221 Idioventricular
+345 Is the rate less than 60 BPM?
+280 Is the rate less than 60 BPM?
+100 Are the P-R Intervals normal until a premature QRS Complex occurs in the presence of an absent or inverted P-Wave?
+115 Is the QRS Complex greater than 0.12 seconds?
+144 Sinus Arrhythmia
+146 Sinus Arrhythmia with a Bundle Branch Block
+335 Is the rate greater than 100 BPM?
+212 Accelerated Junction
+219 Accelerated Idioventricular
+340 Is the rate between 60-100 BPM?
+242 Is the QRS Complex greater than 0.12 seconds?
+211 Is the rate between 60-100 BPM?
+90 Is the QRS Complex greater than 0.12 seconds?
+115 Is the QRS Complex always greater than 0.12 seconds?
+125 Wandering Atrial Pacer
+135 Wandering Atrial Pacer with a Bundle Branch Block
+210 Junctional Tachycardia
+209 Is the rate greater than 100 BPM?
+290- Is the QRS Complex greater than 0.12 seconds?
+285 Sinus Bradycardia
+295 Sinus Bradycardia with a Bundle Branch Block
+335 Is the rate greater than 100 BPM?
+338 Is the QRS Complex greater than 0.12 seconds?
+337 Sinus Bradycardia with First Degree Atrioventricular Block
+339 Sinus Bradycardia with First Degree Atrioventricular Block and a Bundle Branch Block
+89 Sinus Rhythm with Premature Atrial Complexes
+95 Sinus Rhythm with Premature Atrial Complexes and a Bundle Branch Block
+110 Sinus Rhythm with Premature Junctional Complexes
+116 Sinus Rhythm with Premature Junctional Complexes and a Bundle Branch Block
+270 Is the QRS Complex greater than 0.12 seconds?
+265 Sinus Rhythm
+275 Sinus Rhythm with a Bundle Branch Block
+348 Is the QRS Complex greater than 0.12 seconds?
+342 Sinus Rhythm with a First Degree Atrioventricular Block
+339 Sinus Rhythm with a First Degree Atrioventricular Block and a Bundle Branch Block
+257 Sinus Tachycardia 
+259 Sinus Tachycardia with a Bundle Branch Block
+337 Sinus Tachycardia with a First Degree Atrioventricular Block
+339 Sinus Tachycardia with a First Degree Atrioventricular Block and a Bundle Branch Block

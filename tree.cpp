@@ -4,54 +4,51 @@
 
 using namespace std;
 
-void BinaryTree::insert(string question, Node * node) {
-    if (question < node->question) {
+void BinaryTree::insert(int new_key, string question, Node * node) {
+    if (new_key < node->key) {
         if (node -> left != NULL) {
-            insert(question, node->left);
+            insert(new_key, question, node->left);
         }
         else {
-            node->left = new Node(question);
+            node->left = new Node(new_key, question);
         }
     }
-    else if (question > node->question) {
+    if (new_key > node->key) {
         if (node->right != NULL) {
-            insert(question, node->right);
+            insert(new_key, question, node->right);
         }
         else {
-            node->right = new Node(question);
+            node->right = new Node(new_key, question);
         }
-    }
-  }
-
-void BinaryTree::display(Node * node, int indent) {
-    if (node != NULL) {
-
-        if (node -> left) display(node->left, indent + 4);
-        if (node -> right) display(node->right, indent + 4);
-        if (indent) {
-            cout << setw(indent) << ' ';
-        }
-        cout << node->question << endl;
-        
     }
 }
 
 void BinaryTree::traverse(Node* node) {
-    cout << node->question << endl;
     string response;
-    cout << "Enter yes/no" << endl;
-    cin >> response;
-    if (response == "yes") {
-        traverse(node->right);
+    if (node->right != NULL || node->left != NULL) {
+        node->question.erase(node->question.begin(), node->question.begin() + 1);
+       cout << node-> question << " (yes/no)" << endl;
     }
     else {
-        traverse(node->left);
+        cout << "The Rhythm is:" << node->question << endl;
+        return;
     }
-    //Need to handle case with leaf node
     
-}
-
-bool BinaryTree::isQuestion() {
-    if((&right == NULL) && (&left == NULL)) return false;
-    return true;
+    cin >> response;
+    if (response == "yes") {
+        if (node->right != NULL) {
+            traverse(node->right);
+        }
+        else {
+            return;
+        }
+    }
+    else {
+        if (node->left != NULL) {
+            traverse(node->left);
+        }
+        else {
+            return;
+        }
+    }
 }

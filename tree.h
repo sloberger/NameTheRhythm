@@ -8,10 +8,12 @@ class BinaryTree {
 public:
     class Node {
     public:
+        int key;
         string question;
         Node * left;
         Node * right;
-        Node (string next_question) {
+        Node (int new_key, string next_question) {
+            key = new_key;
             question = next_question;
             left = NULL;
             right = NULL;
@@ -19,11 +21,9 @@ public:
     };
     Node* root;
     BinaryTree(string root_question) {
-        root = new Node(root_question);
+        root = new Node(1, root_question);
     };
     ~BinaryTree() {delete root;};
-    void insert(string question, Node * root);
-    void display(Node * tree, int indent);
-    bool isQuestion();
+    void insert(int new_key, string question, Node * root);
     void traverse(Node * node);
 };
